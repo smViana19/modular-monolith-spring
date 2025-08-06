@@ -1,16 +1,17 @@
-package br.com.bot.core.model;
+package br.com.bot.infra.entity;
 
-public class User {
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "users")
+public class UserEntity {
+  @Id
   private Long id;
   private String name;
   private String email;
   private String password;
-
-  public User(Long id, String name, String email) {
-    this.id = id;
-    this.name = name;
-    this.email = email;
-  }
 
   public Long getId() {
     return id;
