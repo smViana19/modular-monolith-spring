@@ -5,8 +5,9 @@ import br.com.bot.core.model.User;
 import java.util.List;
 
 public interface UserRepository {
-  void createUser();
-  List<User> findAllUsers() ;
-  User findUserById(Long id);
+  User createUser(User user);
+  List<User> getAllUsers() ;
+  User getUserById(Long id);
+  User getUserByEmail(String email);
 
 }

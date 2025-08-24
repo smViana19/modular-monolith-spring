@@ -6,7 +6,7 @@ import br.com.bot.infra.entity.UserEntity;
 public class UserMapper {
 
   public static User toDomain(UserEntity entity) {
-    return new User(entity.getId(), entity.getName(), entity.getEmail());
+    return new User(entity.getId(),entity.getName(), entity.getEmail());
   }
 
   public static UserEntity toEntity(User domain) {

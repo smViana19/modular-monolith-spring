@@ -1,25 +1,9 @@
-package br.com.bot.infra.entity;
+package br.com.bot.webservices.dto;
 
-import jakarta.persistence.*;
-
-@Entity
-@Table(name = "users")
-public class UserEntity {
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-
-  private Long id;
+public class UserRequestDTO {
   private String name;
   private String email;
   private String password;
-
-  public Long getId() {
-    return id;
-  }
-
-  public void setId(Long id) {
-    this.id = id;
-  }
 
   public String getName() {
     return name;

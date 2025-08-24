@@ -1,6 +1,6 @@
 package br.com.bot.webservices.dto;
 
-public class UserResponse {
+public class UserResponseDTO {
   private Long id;
   private String name;
   private String email;
@@ -28,4 +28,5 @@ public class UserResponse {
   public void setName(String name) {
     this.name = name;
   }
+
 }
