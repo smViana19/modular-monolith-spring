@@ -1,6 +1,6 @@
-# BotInvestimentos
 
-**BotInvestimentos** é uma aplicação pessoal em desenvolvimento que tem como objetivo **auxiliar o usuário a identificar os melhores investimentos do dia**. O projeto está sendo construído principalmente como um **meio de aprendizado**, explorando boas práticas em Java, Spring Boot e arquitetura modular em camadas.
+
+Aplicação pessoal em desenvolvimento que tem como objetivo **auxiliar o usuário a identificar os melhores investimentos do dia**. O projeto está sendo construído principalmente como um **meio de aprendizado**, explorando boas práticas em Java, Spring Boot e arquitetura modular em camadas.
 
 ## Funcionalidades
 
